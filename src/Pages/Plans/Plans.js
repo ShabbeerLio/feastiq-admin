@@ -8,7 +8,8 @@ import AddItem from "../../Components/Plans/AddItem";
 const Plans = () => {
   const { notes, getDetails } = useContext(NoteContext);
   const [modalOpen, setModalOpen] = useState(false);
-  const [selectedPlan, setSelectedHome] = useState(null);const navigate = useNavigate();
+  const [selectedPlan, setSelectedHome] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (!localStorage.getItem("token")) {
