@@ -1,0 +1,47 @@
+.login-box{
+    z-index: 1051;
+   background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 40px;
+    padding: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: white;
+}
+
+.login-box-imag img{
+    width: 20%;
+    object-fit: cover;
+}
+
+.user-box{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.user-box input{
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: white;
+}
+.user-box label{
+   text-align: start;
+   margin-bottom: 5px;
+}
+
+.login-box button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    color: black;
+}
+
+.modal-backdrop{
+    background: linear-gradient(180deg, #466572, #203a43, #112128);
+}

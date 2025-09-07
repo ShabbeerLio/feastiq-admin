@@ -1,0 +1,90 @@
+.Home {
+  padding: 1rem;
+  overflow-y: auto;
+  height: 90%;
+}
+
+.Home-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Home-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.Home-card {
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1rem;
+}
+.Home-card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Home-card-head {
+  border-bottom: 1px solid #466572;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.Home-card-head h5 {
+  margin: 0;
+}
+
+.Home-card-box p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+}
+.Home-card-box p span {
+  margin: 0;
+  font-weight: 500;
+}
+
+.Home-card-button {
+  display: flex;
+  align-items: center;
+}
+.Home-card-button p {
+  margin: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.planet-filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.planet-filter p {
+  margin: 0;
+}
+.planet-filter select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f0f6f8;
+  width: 100%;
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.pagination button {
+  padding: 7px 10px;
+  cursor: pointer;
+}
